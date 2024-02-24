@@ -15,20 +15,16 @@ DATA_DIRECTORY=os.path.join(current_dir, 'data')
 target_files=['product_description.json','products_ids.json','product_prices.json']
 file_names = [os.path.join(root, filename) for root, _, files in os.walk(DATA_DIRECTORY) for filename in files if filename in target_files]
 
+store_info='store_info.json'
 product_description=next((item for item in file_names if 'product_description' in item), None)
 products_ids=next((item for item in file_names if 'products_ids' in item), None)
 product_prices=next((item for item in file_names if 'product_prices' in item), None)
 
-
 # Load data from JSON files
-with open('store_info.json') as f:
-    store_info = json.load(f)
-with open(product_description) as f:
-    product_description = json.load(f)
-with open(products_ids) as f:
-    products_ids = json.load(f)
-with open(product_prices) as f:
-    product_prices = json.load(f)
+for eachfile in [store_info,product_description,products_ids,product_prices]:
+    filevar=os.path.split(eachfile)[1].split('.')[0]
+    with open(eachfile) as f:
+        vars()[filevar]= json.load(f)
 
 # Process and integrate data
 for product_id in products_ids:
