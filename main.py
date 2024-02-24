@@ -3,26 +3,31 @@ from pymongo import MongoClient
 from datetime import datetime
 import os
 
-current_dir = os.getcwd()
-DATA_DIRECTORY=os.path.join(current_dir, 'data')
-
-CATEGORY_1_DIRECTORIES=
-
-store_info_path=os.path.join(DATA_DIRECTORY, 'store_info')
-
 # Connect to MongoDB
 client = MongoClient('localhost', 27017)
 db = client['construction_products']
 collection = db['products']
 
+#file directories
+current_dir = os.getcwd()
+DATA_DIRECTORY=os.path.join(current_dir, 'data')
+
+target_files=['product_description.json','products_ids.json','product_prices.json']
+file_names = [os.path.join(root, filename) for root, _, files in os.walk(DATA_DIRECTORY) for filename in files if filename in target_files]
+
+product_description=next((item for item in file_names if 'product_description' in item), None)
+products_ids=next((item for item in file_names if 'products_ids' in item), None)
+product_prices=next((item for item in file_names if 'product_prices' in item), None)
+
+
 # Load data from JSON files
 with open('store_info.json') as f:
     store_info = json.load(f)
-with open('product_description.json') as f:
+with open(product_description) as f:
     product_description = json.load(f)
-with open('products_ids.json') as f:
+with open(products_ids) as f:
     products_ids = json.load(f)
-with open('Product_prices.json') as f:
+with open(product_prices) as f:
     product_prices = json.load(f)
 
 # Process and integrate data
