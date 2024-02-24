@@ -1,8 +1,14 @@
 import json
 from pymongo import MongoClient
 from datetime import datetime
+import os
 
-DATA_DIRECTORY='data'
+current_dir = os.getcwd()
+DATA_DIRECTORY=os.path.join(current_dir, 'data')
+
+CATEGORY_1_DIRECTORIES=
+
+store_info_path=os.path.join(DATA_DIRECTORY, 'store_info')
 
 # Connect to MongoDB
 client = MongoClient('localhost', 27017)
