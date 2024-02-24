@@ -1,0 +1,279 @@
+{
+    "ean": "7070276047521",
+    "storeAvailabilities": [
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 298,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080001132538",
+                "name": "Arendal",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 804,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080000571321",
+                "name": "Kongsberg",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 485,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080001186463",
+                "name": "Kragerø",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 1171,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080001132590",
+                "name": "Kristiansand",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 546,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080001132613",
+                "name": "Kristiansand",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 374,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080001132552",
+                "name": "Larvik",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 1082,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080001132545",
+                "name": "Notodden",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "UNAVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 0,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080003819499",
+                "name": "Oslo",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 437,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080003598950",
+                "name": "Rjukan",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 1324,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080000211838",
+                "name": "Sandefjord",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "UNAVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 0,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080001393915",
+                "name": "Skui",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 72,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080001132569",
+                "name": "Stathelle",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 478,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080001132576",
+                "name": "Stavern",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "UNAVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 0,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080000917075",
+                "name": "Steinkjer",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 428,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080001252014",
+                "name": "Søgne",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "UNAVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 0,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080001387839",
+                "name": "Tiller",
+                "eComActive": false
+            }
+        }
+    ],
+    "warehouseAvailabilities": [],
+    "modules": []
+}

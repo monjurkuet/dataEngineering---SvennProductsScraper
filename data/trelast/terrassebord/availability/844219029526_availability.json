@@ -1,0 +1,175 @@
+{
+    "ean": "844219029526",
+    "storeAvailabilities": [
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 64,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080003669711",
+                "name": "Bø i Telemark",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 50,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080001198909",
+                "name": "Gjøvik",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "UNAVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 0,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080001173821",
+                "name": "Hønefoss",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 276,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080000898886",
+                "name": "Laksevåg",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 113,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080003819499",
+                "name": "Oslo",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 19,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080000211838",
+                "name": "Sandefjord",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 84,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080001393915",
+                "name": "Skui",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "UNAVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 0,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080000917075",
+                "name": "Steinkjer",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 55,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080001387839",
+                "name": "Tiller",
+                "eComActive": false
+            }
+        }
+    ],
+    "warehouseAvailabilities": [
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "warehouse": {
+                "id": "7080001198909",
+                "type": "DISTRIBUTION_CENTER"
+            },
+            "quantity": 50,
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "future": []
+        }
+    ],
+    "modules": []
+}

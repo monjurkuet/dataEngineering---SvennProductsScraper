@@ -1,0 +1,41 @@
+{
+    "ean": "844219022558",
+    "storeAvailabilities": [
+        {
+            "availability": {
+                "status": "UNAVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 0,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080001357139",
+                "name": "Lillestrøm",
+                "eComActive": false
+            }
+        },
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 68,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080000565047",
+                "name": "Stjørdal",
+                "eComActive": false
+            }
+        }
+    ],
+    "warehouseAvailabilities": [],
+    "modules": []
+}

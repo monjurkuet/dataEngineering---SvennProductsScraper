@@ -1,0 +1,24 @@
+{
+    "ean": "7071910004450",
+    "storeAvailabilities": [
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 1036,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080001252014",
+                "name": "Søgne",
+                "eComActive": false
+            }
+        }
+    ],
+    "warehouseAvailabilities": [],
+    "modules": []
+}

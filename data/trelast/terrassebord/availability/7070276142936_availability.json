@@ -1,0 +1,24 @@
+{
+    "ean": "7070276142936",
+    "storeAvailabilities": [
+        {
+            "availability": {
+                "status": "AVAILABLE"
+            },
+            "restrictions": {
+                "salesDisabled": false
+            },
+            "quantity": 163,
+            "displayQuantity": 0,
+            "shelfLocation": null,
+            "future": [],
+            "store": {
+                "id": "7080000211838",
+                "name": "Sandefjord",
+                "eComActive": false
+            }
+        }
+    ],
+    "warehouseAvailabilities": [],
+    "modules": []
+}
