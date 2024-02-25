@@ -1,4 +1,5 @@
 import json
+import pymongo
 from pymongo import MongoClient
 from datetime import datetime
 import os
@@ -9,6 +10,7 @@ client = MongoClient('localhost', 27017)
 db = client['construction_products']
 collection = db['products']
 # Use EAN codes as the primary identifier
+# Check if the unique index already exists
 collection.create_index([('ean_codes', 1)], unique=True)
 
 #file directories
@@ -31,7 +33,9 @@ for eachfile in [store_info,product_description,products_ids,product_prices]:
 
 #create and process dataframes
 df_product_prices = [pd.json_normalize(sublist) for sublist in product_prices]
+df_product_prices = [df.dropna(axis=1, how='all') for df in df_product_prices]
 df_product_prices = pd.concat(df_product_prices, ignore_index=True)
+
 
 df_store_info=pd.DataFrame(store_info)
 
@@ -99,7 +103,8 @@ for each_data in full_data:
         each_data['created']=datetime.now()
         each_data['updated']=datetime.now()
         collection.insert_one(each_data)
-    except:
+    except pymongo.errors.DuplicateKeyError:
+        del each_data['_id']    # Exclude _id field from update
         del each_data['created']
         each_data['updated']=datetime.now()
-        collection.update_one({"ean_codes":ean_codes}, {'$set': each_data}, upsert=True)
+        collection.update_one({"ean_codes":ean_codes}, {'$set': each_data})
