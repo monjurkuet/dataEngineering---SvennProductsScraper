@@ -108,3 +108,6 @@ for each_data in full_data:
         del each_data['created']
         each_data['updated']=datetime.now()
         collection.update_one({"ean_codes":ean_codes}, {'$set': each_data})
+
+# Close MongoDB client connection
+client.close()
