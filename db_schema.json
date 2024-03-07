@@ -1,0 +1,60 @@
+{
+  "created": "2024-02-16T07:58:00Z",
+  "updated": "2024-02-16T07:58:00Z",
+  "base_name": "Laminatgulv Rock Ridge 7mm pure - Goodiy",
+  "base_category": ["Laminatgulv", "Gulv"],
+  "base_unit": "Pakke",
+  "base_price_unit": "M2",
+  "nobb_codes": [56573856],
+  "ean_codes": [6438313548430],
+  "base_images": [
+    {
+      "url": "https://public.keskofiles.com/f/btt/ASSET_MISC_23324708",
+      "type": "PRODUCT"
+    }
+  ],
+  "variants": [
+    {
+      "retailer": "Byggmakker",
+      "brand": "GOODIY",
+      "url_product": "https://www.byggmakker.no/produkt/laminatgulv-rock-ridge-7mm-pure-goodiy/6438313548430",
+      "retail_unit": "Pakke",
+      "retail_price_unit": "M2",
+      "ean_codes": [6438313548430],
+      "nobb_codes": [56573856],
+      "categories": ["Laminatgulv", "Gulv"],
+      "stores": [
+        {
+          "storeId": "7080000583744",
+          "store_name": "Oppdal",
+          "price": 318.63,
+          "scraped_at": "2024-02-16T07:58:00Z"
+        },
+        {
+          "storeId": "7080000601707",
+          "store_name": "Langangen",
+          "price": 318.62,
+          "scraped_at": "2024-02-16T07:58:00Z"
+        }
+      ]
+    },
+    {
+      "retailer": "Maxbo",
+      "brand": "GOODIY",
+      "url_product": "https://www.maxbo.no/laminatgulv-cadenza-legato-lys-eik-p3677383/",
+      "retail_unit": "Pakke",
+      "retail_price_unit": "M2",
+      "ean_codes": [6438313548430],
+      "nobb_codes": [56573856],
+      "categories": ["Laminatgulv"],
+      "stores": [
+        {
+          "storeId": "7080003904591",
+          "store_name": "Oslo",
+          "price": 320.63,
+          "scraped_at": "2024-02-16T07:58:00Z"
+        }
+      ]
+    }
+  ]
+}
